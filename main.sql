@@ -17,4 +17,8 @@ INSERT INTO books VALUES
 ('The Holy Bible', 'God', 1200, 5.0, -140);
 
 .print 'Average number of pages'
-SELECT avg(num_pages) AS avg_pages FROM books
+SELECT avg(num_pages) AS avg_pages FROM books;
+
+.print
+.print 'Books read'
+SELECT * FROM books;
